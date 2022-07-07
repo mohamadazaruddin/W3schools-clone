@@ -1,0 +1,136 @@
+*{
+    margin:0 ;
+    box-sizing:border-box;
+}
+$mygreencolr:#04aa6d;
+$greybg:#e7e9eb;
+$whitecolor:#fff;
+
+body{
+    background-color: $whitecolor;
+    font-family: sans-serif;
+}
+.layoutnav{
+    background: #282a35;
+    display: flex;
+    width: 100%;
+}
+.layoutul{
+    list-style: none;
+    display: flex;  
+    height: 50px;
+    padding:0;
+    align-items: center;
+    margin:0;
+}
+.layoutul li{
+  
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding:0px 15px;
+}
+.layoutul li:hover{
+    background:$mygreencolr;
+    color:$whitecolor;
+    
+}
+.layoutul li a{
+    color: $whitecolor;
+    text-decoration: none;
+    font-size: 25px;
+}
+.listsdiv{
+    background:$greybg;
+    color:black;
+    width:220px;
+    text-align:center;
+}
+.listheader{
+    padding: 10px 15px;
+    font-size: 23px;
+    text-align: left;
+  
+}
+.listheader h3{
+font-weight:400;
+}
+
+.listbody ul{
+    list-style: none;
+    text-align: left;
+    padding: 0px;
+}
+.listbody ul li{
+    padding: 5px 15px;
+    font-size: 19px;
+    font-weight: 100;
+}
+.listbody ul li a{
+    color:black;
+    text-decoration:none;
+}
+.listbody li:hover{
+    background: $mygreencolr;
+    color:$whitecolor;
+    
+}
+.listbody li:hover a{
+    color:$whitecolor;
+    
+}
+.homepgsections{
+    height:500px;
+}
+.divfor{
+    height:100%;
+    width:100%;
+    display: grid;
+place-items:center;
+text-align:center;
+}
+.divfor h2{
+    font-size:90px;
+}
+.divfor p{
+    font-size:19px;
+}
+.learninghtml{background: #d9eee1;}
+.learningcss{background: #fff4a3;}
+.learningjs{background :#282a35; color:white; font-size:70px important;}
+.learningbs4{ background:#f3ecea;}
+.learningphyton{background: #96d4d4;}
+
+.gotobtn{
+    padding: 7px 75px;
+    background: $mygreencolr;
+    /* text-decoration: none; */
+    color: $whitecolor;
+    border: 1px solid $mygreencolr;
+    font-size:18px;
+    border-radius: 50px;
+}
+.htmlcontent{
+    display:flex;
+}
+.gotobtn a{
+    text-decoration:none;
+    color:$whitecolor;
+}
+.htmlhm{
+    position: absolute;
+    left: 220px;
+    /* border: 1px solid; */
+    top: 50px;
+    width: 900px;
+    display: grid;
+    height: 500px;
+    place-items: center;
+    /* text-align: center; */
+    background-color:#d9eee1;
+}
+.preandnextbtns{
+
+}
